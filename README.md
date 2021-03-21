@@ -1,16 +1,13 @@
 BIP39.NET
 ===========
 
-C# (PCL) implementation of the BIP39 Bitcoin Improvement Proposal Document https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki
+C# (.NET Standard) implementation of the BIP39 Bitcoin Improvement Proposal Document https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki
+### This is not my work. Please Visit: https://github.com/realindiahotel/BIP39.NET
+#Chnages:
+BouncyCastle updated to v1.8.9, Target freamworks changed. "BIP39.NET" and "BitcoinUtilities.NET" projects merged.
 
-This PCL is targeted for Universal Apps (Windows 8.1/Windows Phone 8.1) and .NET 4.5.1 ONLY. No support for Windows 8 or Windows Phone 8/8.1 Silverlight apps.
+"BIP39.NET":	.NET PCL	=>	.NET Standard 2.0
 
-### PLEASE ENSURE YOU ALSO DOWNLOAD, BUILD AND REFERENCE THE BitcoinUtilities.NET PROJECT LOCATED HERE: https://github.com/Thashiznets/BitcoinUtilities.NET ###
+"Tests":		.NET 4.5.1	=>	.NET 4.7.2
 
-I have included a test GUI which shows you how to use the BIP39 class.
-
-I have created unit tests that test against the English and Japanese test vectors posted here https://raw.githubusercontent.com/trezor/python-mnemonic/master/vectors.json and here https://github.com/Thashiznets/bip32JP.github.io/blob/patch-1/test_JP_BIP39.json
-
-PBKDF2-HMACSHA512 functionality provided by my PWDTK.NET project, it is a slightly modified variant of the rfc2898 class when compared to PWDTK.NET as the BIP39 spec has us use the mnemonic sentence as the hmac key and then we just hash the word "mnemonic"+[user-supplied-passphrase] for 2048 iterations, whereas PWDTK.NET would have you use the passphrase as the hmac key and hash the mnemonic sentence + crypto random salt over x iterations. Six to one Half Dozen to the other really as all are creating irreversible bits with stretching as is the aim.
-
-This code is put out for all to use for free, If you find yourself using this code in a commercial implementation and you feel you are going to make some money from it, I’d appreciate it if you fling me some bitcoin to 1TipMe74AoUSv5JotGutG6zfvjsC6v2SC thanks :)
+"TestGUI":	.NET 4.5.1	=>	.NET 4.7.2
