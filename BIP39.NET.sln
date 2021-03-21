@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30914.41
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIP39.NET", "BIP39.NET\BIP39.NET.csproj", "{063DBE48-0DDF-4D7B-86F6-151C10ABB943}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BIP39.NET", "BIP39.NET\BIP39.NET.csproj", "{063DBE48-0DDF-4D7B-86F6-151C10ABB943}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGUI", "TestGUI\TestGUI.csproj", "{6F0442D2-C74E-4A19-A101-9A557C29C3B8}"
 EndProject
@@ -11,6 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0512417E-C9DD-46E4-9C66-B1D8A3FC0214}"
 	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
 EndProject
