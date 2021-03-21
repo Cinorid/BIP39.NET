@@ -6,8 +6,7 @@ C# (.NET Standard) implementation of the BIP39 Bitcoin Improvement Proposal Docu
 #Chnages:
 BouncyCastle updated to v1.8.10, Target freamworks changed. "BIP39.NET" and "BitcoinUtilities.NET" projects merged.
 
+<pre>
 "BIP39.NET":	.NET PCL	=>	.NET Standard 2.0
-
-"Tests":		.NET 4.5.1	=>	.NET 4.7.2
-
+"Tests":	.NET 4.5.1	=>	.NET 4.7.2
 "TestGUI":	.NET 4.5.1	=>	.NET 4.7.2
