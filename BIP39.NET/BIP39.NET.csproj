@@ -14,7 +14,7 @@
 		<NeutralLanguage>en-US</NeutralLanguage>
 		<Title>BIP39.NET</Title>
 		<PackageId>BIP39-NET</PackageId>
-		<PackageTags>bip32</PackageTags>
+		<PackageTags>bip39</PackageTags>
 		<PackageIcon>packageIcon.png</PackageIcon>
     <PackageIconFullPath>$(MSBuildThisFileDirectory)packageIcon.png</PackageIconFullPath>
 		<RootNamespace>Bitcoin.BIP39</RootNamespace>
