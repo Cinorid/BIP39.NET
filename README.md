@@ -3,8 +3,8 @@ BIP39.NET
 
 C# (.NET Standard) implementation of the BIP39 Bitcoin Improvement Proposal Document https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki
 ### This is not my work. Please Visit: https://github.com/realindiahotel/BIP39.NET
-#Chnages:
-BouncyCastle updated to v1.8.10, Target freamworks changed. "BIP39.NET" and "BitcoinUtilities.NET" projects merged.
+#Changes:
+BouncyCastle updated to v1.8.10, Target frameworks changed. "BIP39.NET" and "BitcoinUtilities.NET" projects merged.
 
 <pre>
 "BIP39.NET":	.NET PCL	=>	.NET Standard 2.0
