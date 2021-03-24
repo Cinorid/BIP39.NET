@@ -1,14 +1,33 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
-		<PackageId>BIP39.NET</PackageId>
+		<Product>BIP39.NET</Product>
 		<Version>1.0.0</Version>
 		<Authors>Cinorid (AhmadReza Saghari)</Authors>
 		<Company>Cinorid</Company>
-		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Description>C# (.NET Standard) implementation of the BIP39 Bitcoin Improvement Proposal Document https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki</Description>
+		<Summary>C# (.NET Standard) implementation of the BIP39 Bitcoin Improvement Proposal Document</Summary>
+    <Copyright>Copyright © 2021 Cinorid (AhmadReza Saghari)</Copyright>
+		<PackageProjectUrl>https://github.com/Cinorid/BIP39.NET</PackageProjectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<NeutralLanguage>en-US</NeutralLanguage>
+		<Title>BIP39.NET</Title>
+		<PackageId>BIP39-NET</PackageId>
+		<PackageTags>bip32</PackageTags>
+		<PackageIcon>packageIcon.png</PackageIcon>
+    <PackageIconFullPath>$(MSBuildThisFileDirectory)packageIcon.png</PackageIconFullPath>
+		<RootNamespace>Bitcoin.BIP39</RootNamespace>
+		<AssemblyName>BIP39.NET</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
 	</PropertyGroup>
 
 	<ItemGroup>
+		<None Include="..\LICENSE.md" Pack="true" PackagePath="LICENSE.md" />
+    <None Include="$(PackageIconFullPath)" Pack="true" PackagePath="\" />
 		<PackageReference Include="Portable.BouncyCastle" Version="1.8.10" />
 	</ItemGroup>
 
