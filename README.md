@@ -10,6 +10,7 @@ BouncyCastle updated to v1.8.10, Target frameworks changed. "BIP39.NET" and "Bit
 "BIP39.NET":	.NET PCL	=>	.NET Standard 2.0
 "Tests":	.NET 4.5.1	=>	.NET 4.7.2
 "TestGUI":	.NET 4.5.1	=>	.NET 4.7.2
+</pre>
 
 ## Donate
 If you like this little project and find it worthy of a donation, send some coins to:
